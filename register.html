@@ -1,0 +1,42 @@
+<html>
+    <head>
+      <title>Registration Form</title>
+      <link rel="stylesheet" type="text/css" href="register.html">
+    </head>
+    <head>
+        <title>My Features</title>
+        <style>
+          body {
+              background-image: url(IMG_Irvine.jpg);
+              background-size: cover;
+              background-position: center;
+              font-family: Arial, sans-serif;
+          }
+  
+          .features {
+              text-align: center;
+              color: rgb(252, 250, 250);
+              padding: 20px;
+              background-color: rgba(0, 0, 0, 0.5);
+              margin: 50px;
+              width: 80%;
+          }
+        </style>
+      </head>  
+    <body>
+        <div class="container"></div>
+        <h2>Registration Form</h2>
+        <form action="register.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="nmae" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>

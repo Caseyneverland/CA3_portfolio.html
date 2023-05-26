@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="contact.html">
+    </head>
+    <head>
+        <title>My Features</title>
+        <style>
+          body {
+              background-image: url(image\ 2.jpg);
+              background-size: cover;
+              background-position: center;
+              font-family: Arial, sans-serif;
+          }
+  
+          .features {
+              text-align: center;
+              color: rgb(252, 250, 250);
+              padding: 20px;
+              background-color: rgba(0, 0, 0, 0.5);
+              margin: 50px;
+              width: 80%;
+          }
+        </style>
+      </head>  
+    <body>
+        <div class="container">
+            <form action="contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <img src="image 2.jpg" alt="Laguna Beach, California">
+    </body>
+</html>
